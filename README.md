@@ -1,55 +1,161 @@
-# Tennis Academy Management System
+Tennis Academy Management System
 
-**Language:** Java  
-**Concepts:** Object-Oriented Programming (OOP), Encapsulation, Composition, Git & GitHub
+The Tennis Academy Management System is a versioned, real-world software project that evolves from a Java-based core system into a professional, production-ready Tennis Academy website, with a clear roadmap toward a full-stack application.
 
----
+Project Overview
 
-## Project Overview
+This project is designed to manage and represent the operations of a tennis academy, including players, coaches, training programs, and academy-related information.
 
-This is a **console-based Java application** to manage a Tennis Academy.  
-It allows managing **players**, **coaches**, and **training sessions** using clean OOP principles.
+The repository follows a structured, step-by-step development approach where each version introduces meaningful features and new technologies. It demonstrates persistent development, clean architecture, and scalability.
 
-This project serves as **Version 1** of a full-fledged Tennis Academy management system, which will eventually become a professional **MERN full-stack website**.
+Project Versions
+Version 1 – Core System (Completed)
 
----
+A console-based Java application built using Object-Oriented Programming principles to model the core functionality of a tennis academy.
 
-## Technologies Used
+Version 2 – Professional Static Website (Completed)
 
-- Java (OOP: Encapsulation, Composition, Polymorphism planned)  
-- Git & GitHub (Version Control)  
-- Console-based interactive program  
+A professional static website that serves as the public-facing frontend of the Tennis Academy system. This version focuses on clean UI structure, reusable layouts, and future scalability.
 
----
+Technologies Used
+Version 1
 
-## Features (Version 1)
+Java
 
-- Add and store players with their details (ID, Name, Age, Skill Level)  
-- Add coaches with specialization  
-- Create training sessions and assign players & coaches  
-- Display all information using clean `toString()` methods  
-- Version controlled using Git & GitHub  
+Object-Oriented Programming (Encapsulation, Inheritance, Polymorphism)
 
----
+Git and GitHub
 
-## Future Improvements (Roadmap)
+Version 2
 
-- **Menu-driven console** interface for dynamic interactions (Version 2)  
-- **Inheritance & Polymorphism**: `JuniorPlayer`, `SeniorPlayer` types (Version 3)  
-- **Performance Tracking**: track player improvement and session outcomes  
-- **File Handling**: save/load academy data to files  
-- **MERN Website**:
-  - Home page, About, Achievements, Player List, Coach List, Training Sessions  
-  - Fee structure, Contact form, Gallery, Testimonials  
-  - Admin panel to manage players, sessions, and payments  
-  - Responsive and aesthetic UI, deployment online  
-- **Optional Features**: Payment gateway, tournament registration, newsletter subscription  
+HTML5
 
----
+CSS3
 
-## How to Run
+JavaScript (basic)
 
-1. Clone the repository:
+Features
+Version 1 – Java Console Application
 
-```bash
-git clone https://github.com/Janabalakumar/TennisAcademySystem-.git
+Player management with details such as name, age, and skill level
+
+Coach management with specialization details
+
+Training session management
+
+Clean object-oriented design with meaningful class structure
+
+Version control using Git and GitHub
+
+Version 2 – Static Website
+
+Multi-page professional website including:
+
+Home
+
+About
+
+Programs
+
+Coaches
+
+Fees
+
+Achievements
+
+Gallery
+
+Contact
+
+Consistent navigation bar and footer across all pages
+
+Home page with hero section and structured content layout
+
+Reusable card-based layouts for training programs and coaches
+
+Fee structure displayed in a clear tabular format
+
+Contact page with enquiry form and academy contact details
+
+Planned Player Progress page for future dynamic integration
+
+Project Structure
+TennisAcademySystem/
+│
+├── src/                         Java source files (Version 1)
+│
+├── TennisAcademyWebsite/        Static Website (Version 2)
+│   ├── index.html
+│   ├── about.html
+│   ├── programs.html
+│   ├── coaches.html
+│   ├── fees.html
+│   ├── achievements.html
+│   ├── gallery.html
+│   ├── contact.html
+│   ├── player-progress.html
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+└── README.md
+
+Roadmap
+Version 3 – React Frontend
+
+Conversion of static pages into reusable React components
+
+Client-side routing
+
+Improved code organization and maintainability
+
+Version 4 – Backend and Database
+
+Node.js and Express backend
+
+MongoDB database integration
+
+RESTful APIs for academy data management
+
+Version 5 – Full-Stack Application
+
+Dynamic, data-driven website
+
+Admin dashboard for academy management
+
+Player progress tracking
+
+Version 6 – Authentication and Authorization
+
+Secure login using JWT
+
+Role-based access control
+
+Version 7 – Deployment
+
+Live deployment using modern hosting platforms
+
+Production-ready public website
+
+How to Run Version 1
+
+Clone the repository:
+
+git clone https://github.com/Janabalakumar/TennisAcademySystem.git
+
+
+Open the project in a Java IDE
+
+Compile and run the main Java class
+
+Project Status
+
+Version 1: Completed
+
+Version 2: Completed
+
+Version 3: Planned
+
+Project Goal
+
+To build a scalable, real-world Tennis Academy system that demonstrates strong programming fundamentals, professional UI design, and full-stack development capabilities.
