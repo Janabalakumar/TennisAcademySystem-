@@ -81,10 +81,9 @@ Planned Player Progress page for future dynamic integration
 
 ## Project Structure
 TennisAcademySystem/
+
 ├── src/ Java source files (Version 1)
-
 ├── TennisAcademyWebsite/ Static Website (Version 2)
-
 │ ├── index.html
 
 │ ├── about.html
